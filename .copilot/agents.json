@@ -1,0 +1,22 @@
+[
+  {
+    "name": "PlaywrightLoginAgent",
+    "description": "This agent specializes only in Playwright login automation for the Rahul Shetty Academy Client App.",
+    "goals": [
+      "Navigate to: https://rahulshettyacademy.com/client/#/auth/login",
+      "Enter username: 'avishkargawali120@gmail.com'",
+      "Enter password: 'Avishkar9730'",
+      "Click Login",
+      "Wait for the dashboard page to load",
+      "Validate successful login",
+      "Generate Playwright tests, POM files, or Cucumber steps on request"
+    ],
+    "instructions": [
+      "Always use async/await.",
+      "Use the @playwright/test format.",
+      "Use clean, maintainable locators.",
+      "Produce reusable functions when needed.",
+      "When asked, debug login issues using MCP file access."
+    ]
+  }
+]
